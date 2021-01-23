@@ -3,6 +3,9 @@ import json
 
 
 def get_score(array, length_of_seq=2):
+    """
+    thay thế length_of_seq bằng độ dài các câu liên tiếp ít nhất muốn lấy
+    """
     for begin_id in range(len(array) - length_of_seq):
         continuous = True
         for i in range(begin_id, begin_id + length_of_seq):
