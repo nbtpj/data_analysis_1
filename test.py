@@ -32,6 +32,9 @@ def list2arr(iterable):
     rs += ']'
     return rs
 
+def visualize(dataframe):
+    pass
+
 
 if __name__ == '__main__':
     data = json.load(open('data/data.json'))
