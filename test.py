@@ -9,7 +9,7 @@ def get_score(array, length_of_seq=2):
     for begin_id in range(len(array) - length_of_seq):
         continuous = True
         for i in range(begin_id, begin_id + length_of_seq):
-            if array[i] != array[i + 1] - 1:
+            if int(array[i]) != int(array[i + 1]) - 1:
                 continuous = False
                 break
         if continuous:

@@ -1,47 +1,54 @@
 
+## phân tích dữ liệu  
+**1. phân tích sự liên tiếp trong đoạn tóm tắt so với đoạn nguồn**  
+  - sự liên tiếp ở đây được định nghĩa là trong 1 đoạn tóm tắt có chứa ít nhất 1 đoạn n câu liên tiếp trong đoạn nguồn  
+     
+- kết quả:  
+  
+      
+  
+> n = 2  
+**![](https://lh4.googleusercontent.com/IAODoLbVQ0J-Gmjes3cLq20emqZ9AF6zKuq2JMoP_wBVyV2lO05adUbr-AsZVLXy8RM4rHYjhMdSUbGHfD9iFaAyCho-5JbZcUs9GqG-IOQkoCSxresZ6QsGUSBMbNS-W4kkAgvU)**  
+  
+> n = 3  
+> **![](https://lh5.googleusercontent.com/7njiLE2T929AxPnyD6R7yJhhwfksQ-GQgqY_gDnUaE_vBiEQWkguQwMDU_5eWwESLqtVzXzGbqJVQM2XBBdiALfOftSfOkKggespqPSQUhnVKlvUpuXtk8rS8hlVCeEtyNZ8_1qy)**  
+  
+> n = 4  
+> **![](https://lh6.googleusercontent.com/QW1XvTrtjyf7Eqs2DlS7aDRsQI2njOrbPoDvGhtvV2piBZrXuetDa7daME1Mmc3pYdwcCOhyPhHqZWhBSKnTiomT6B2eFKjcfG7QTN6sRLIlsaySQxeIyyiiLfAktbTKA6aKexXW)**  
+  
+> độ dài trung bình các đoạn câu liên tiếp (lấy từ nguồn)
+>**![](https://lh4.googleusercontent.com/JusZYggVCCIpmadEz3WdKQ-hPl00MwAlxY0QyqfTcYUi3jcAPs33k_no0E2biD2AYr0_JKkHFJOVnBh0-ZwK8n712-6SfUhPwVLV2YCzMmroeYd4NFvhxnX3ybvUOabzu0-dmxcw)**
+>
+**2. khả năng nén của đoạn tóm tắt**
 
-## Số liệu sự tương đồng câu giữa đoạn tóm tắt đơn và các nguồn dữ liệu (section, article)
+a. theo tỉ lệ
 
-**1.Phương pháp so sánh**
+	kết quả:
+	tỉ lệ nén theo câu:
+	nguồn nén = article 
+		kì vọng (trung bình) = 0.116076576152576 
+		lệch chuẩn = 0.005242004780772215
+	nguồn nén = section 
+		kì vọng (trung bình) = 0.43357557311998546 
+		lệch chuẩn = 0.013140789612225178
+		
+	tỉ lệ nén theo từ:
+	nguồn nén = article
+		kì vọng (trung bình) = 0.07737879653180975
+		lệch chuẩn = 0.004537659500834657
+	nguồn nén = section
+		kì vọng (trung bình) = 0.38955962891374707
+		lệch chuẩn = 0.01356403821695586
+b. theo số lượng 
 
-- Các đoạn được tách bằng spacy thành danh sách các câu
-- Từ các đoạn của nguồn dữ liệu đối chiếu với đoạn tóm tắt đơn để tìm ra các câu xuất hiện theo thứ tự (của đoạn tóm tắt, và id của nó trong đoạn nguồn)
+	kết quả:
+	số câu trung bình trong 1 đoạn tóm tắt:
+		kì vọng (trung bình) = 7.697463768115925
+		lệch chuẩn = 0.34674157451319476
+		
+	số từ trung bình trong 1 đoạn tóm tắt:
+		kì vọng (trung bình) = 9.543478260869538
+		lệch chuẩn = 0.6076729582658386
+__________________________________
 
-> Ví dụ:
-> 
-> Đoạn nguồn: A,M,F,R,J,G
-> 
-> Đoạn tóm tắt: A,F,G
-> 
-> Output = [ 0 2 5 ]
-> 
-> Dãy trên không có tính liên tiếp, nên so sánh này được gán nhãn FALSE
-> 
-> *( hiện tại, liên tiếp ở đây được định nghĩa là có tối thiểu 2 id liên tiếp nhau )*
-
-**2. Các câu như thế nào được gọi là giống nhau (tức là coi 2 câu như 1, chứ không phải khoảng cách)?**
-
-+ do dữ liệu article tồn tại nhiễu, nên công thức để coi 2 câu giống nhau:
 	
-
-> 	điểm = Trung bình cộng ( Số từ ngữ trong câu i mà có trong câu j /
-> Tổng số từ câu i)
-
-*trong đó:*
-*- Mỗi từ chỉ được xét 1 lần*
-*- Ngưỡng được chọn để coi 2 câu giống nhau là 0.8 (tức là tập từ vựng trung bình của 2 câu phải giống nhau ít nhất 80% thì được coi là 1 câu)*
-
-**3. Kết quả**
-a. nguồn đối chiếu section:
-**![](https://lh4.googleusercontent.com/ZMBesiATYEknBHe0g5rThmVfhv02_PsCK0IUe2Bk83qHGO7D2pIaFWKJmXYGd8iYf45r8F3gdxNhCODaA25Efo8HN_4HmuJaXCww7JMcmMAzSafKcha3xEwyb9iEAvd4guw1O5QA)**
-
-b. nguồn đối chiếu article:
-**![](https://lh4.googleusercontent.com/ZMBesiATYEknBHe0g5rThmVfhv02_PsCK0IUe2Bk83qHGO7D2pIaFWKJmXYGd8iYf45r8F3gdxNhCODaA25Efo8HN_4HmuJaXCww7JMcmMAzSafKcha3xEwyb9iEAvd4guw1O5QA)**
-**4. nhận xét, lưu ý**
-- tách câu chỉ mang ý nghĩa tương đối (thao tác = spacy), chứ không hiểu theo bối cảnh ngữ nghĩa
-- do vậy, trong article tồn tại nhiều câu không có ngắt nghỉ. các câu này tồn tại ở số ít tóm tắt
-- dữ liệu section bớt nhiễu hơn article
-- em có khảo sát qua thì thấy tồn tại một số câu mà trong tóm tắt không có từ vựng của (hoặc article hoặc section, các phần list trống []), do vậy hiện tại em đang nghi ngờ bản section không chỉ là bản cắt mà còn được chỉnh sửa mạnh hơn so với article, em sẽ hoàn thành khảo sát điều này trước buổi họp nhóm vào tối thứ 2
-
-**5. kết luận**
-- nhận định lấy theo các câu liên tiếp là có cơ sở và có thể áp dụng
