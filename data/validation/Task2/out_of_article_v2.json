@@ -1,0 +1,340 @@
+{
+    "10": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "14": {
+        "out_of_sentences": [
+            "herpes simplex encephalitis is a rare neurological condition that is characterized by inflammation of the brain (encephalitis) severe hsv infections, including herpes encephalitis and infections in newborns, are treated with acyclovir given intravenously."
+        ],
+        "out_of_vocab": [
+            "sooner.",
+            "start,"
+        ]
+    },
+    "19": {
+        "out_of_sentences": [
+            ".many"
+        ],
+        "out_of_vocab": []
+    },
+    "21": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "22": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "26": {
+        "out_of_sentences": [
+            "treatment includes drugs to relieve symptoms, primarily itching  ursodeoxycholic acid to slow the progression of liver damage   cholestyramine may control itchiness, as may rifampin, naltrexone (an opioid), sertraline, or ursodeoxycholic acid plus ultraviolet light."
+        ],
+        "out_of_vocab": []
+    },
+    "27": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "28": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "29": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "3": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "31": {
+        "out_of_sentences": [],
+        "out_of_vocab": [
+            "aspergillus."
+        ]
+    },
+    "33": {
+        "out_of_sentences": [],
+        "out_of_vocab": [
+            "xylitol."
+        ]
+    },
+    "36": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "37": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "4": {
+        "out_of_sentences": [],
+        "out_of_vocab": [
+            "cysts,"
+        ]
+    },
+    "40": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "41": {
+        "out_of_sentences": [
+            "drugs, chemicals, and heavy metals that can cause hyperpigmentation include the following:  some heavy metals (such as silver, gold, and mercury)"
+        ],
+        "out_of_vocab": [
+            "gray.",
+            "cancer."
+        ]
+    },
+    "42": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "43": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "44": {
+        "out_of_sentences": [
+            "no standard therapy for cg has been established based on randomized, controlled clinical trials  because collagenous gastritis is very rare and its cause is unknown, there is currently no established standard therapy for the condition.",
+            "diarrhea may resolve with or without treatment,   a few reports have documented that the abnormal collagen band in affected people persists (with or without medication) despite symptoms improving."
+        ],
+        "out_of_vocab": [
+            "symptoms."
+        ]
+    },
+    "45": {
+        "out_of_sentences": [
+            "doctors treat your symptoms with: physical therapy to keep your joints flexible and slow muscle wasting occupational therapy to prevent choking while eating, or a feeding tube into your stomach if you can no longer swallow  a ventilator (breathing machine) if you're too weak to breathe on your own."
+        ],
+        "out_of_vocab": [
+            "own."
+        ]
+    },
+    "46": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "48": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "49": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "52": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "53": {
+        "out_of_sentences": [
+            "supplements help provide some of the vitamins and minerals that may be missing from your diet.",
+            "peritoneal dialysis also removes some vitamins from your body.",
+            "your doctor may prescribe a vitamin and mineral supplement that scientists have designed specifically for people with ckd and kidney failure.",
+            "never take vitamin and mineral supplements that you can buy over the counter.",
+            "they may be harmful to you.",
+            "talk with your doctor before taking any medicine, including vitamin and mineral supplements"
+        ],
+        "out_of_vocab": [
+            "help",
+            "provide",
+            "vitamins",
+            "minerals",
+            "missing",
+            "removes",
+            "body.",
+            "prescribe",
+            "mineral",
+            "scientists",
+            "designed",
+            "specifically",
+            "ckd",
+            "failure.",
+            "never",
+            "buy",
+            "counter.",
+            "you.",
+            "talk",
+            "before",
+            "taking",
+            "medicine,"
+        ]
+    },
+    "54": {
+        "out_of_sentences": [
+            "shortly after birth, all newborns in the united states are screened for a variety of conditions, including 21-hydroxylase deficiency.",
+            "this is the most common cause of congenital adrenal hyperplasia (cah) and accounts for 95% of classic cah cases.",
+            "nonclassic cah is not detected through newborn screening and is often not suspected until signs and symptoms of the condition begin to appear later in childhood or early adulthood.",
+            "in these cases, a diagnosis of cah is usually based on physical examination; blood and urine tests that measure hormone levels; and/or genetic testing.",
+            "an x-ray may also be helpful in confirming the diagnosis in children since cah can cause bones to grow and develop more quickly than usual (advanced bone age) ."
+        ],
+        "out_of_vocab": [
+            "shortly",
+            "birth,",
+            "newborns",
+            "screened",
+            "variety",
+            "conditions,",
+            "accounts",
+            "95%",
+            "cases.",
+            "detected",
+            "newborn",
+            "screening",
+            "suspected",
+            "begin",
+            "later",
+            "adulthood.",
+            "physical",
+            "examination;",
+            "tests",
+            "measure",
+            "levels;",
+            "testing.",
+            "x-ray",
+            "also",
+            "helpful",
+            "confirming",
+            "since",
+            "bones",
+            "quickly",
+            "than",
+            "(advanced",
+            "age)"
+        ]
+    },
+    "55": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "56": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "57": {
+        "out_of_sentences": [],
+        "out_of_vocab": [
+            "difficult"
+        ]
+    },
+    "61": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "62": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "63": {
+        "out_of_sentences": [],
+        "out_of_vocab": [
+            "cure."
+        ]
+    },
+    "68": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "72": {
+        "out_of_sentences": [
+            "lymphedema has no cure."
+        ],
+        "out_of_vocab": [
+            "cure."
+        ]
+    },
+    "74": {
+        "out_of_sentences": [
+            "anyone can get osteoarthritis; arthritis is another common cause of wrist pain, swelling, and stiffness."
+        ],
+        "out_of_vocab": [
+            "sacrum).."
+        ]
+    },
+    "76": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "77": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "78": {
+        "out_of_sentences": [],
+        "out_of_vocab": [
+            "progression."
+        ]
+    },
+    "8": {
+        "out_of_sentences": [],
+        "out_of_vocab": [
+            "chemotherapy."
+        ]
+    },
+    "81": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "82": {
+        "out_of_sentences": [
+            "if only a small section of the intestine is affected, a child may have milder symptoms and may not be diagnosed until late.",
+            ".people"
+        ],
+        "out_of_vocab": [
+            "affected,",
+            "milder",
+            "late.",
+            ".people",
+            "x-ray."
+        ]
+    },
+    "83": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "87": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "88": {
+        "out_of_sentences": [
+            "drug therapy cannot change the underlying disorder."
+        ],
+        "out_of_vocab": []
+    },
+    "89": {
+        "out_of_sentences": [],
+        "out_of_vocab": [
+            "emergency.immediate"
+        ]
+    },
+    "90": {
+        "out_of_sentences": [],
+        "out_of_vocab": [
+            "used.",
+            "time."
+        ]
+    },
+    "91": {
+        "out_of_sentences": [
+            "some people and some allergies tend to respond better than others.i immunotherapy for food allergies is being studied."
+        ],
+        "out_of_vocab": [
+            "year..alternatively,"
+        ]
+    },
+    "92": {
+        "out_of_sentences": [],
+        "out_of_vocab": []
+    },
+    "93": {
+        "out_of_sentences": [
+            "possible treatment options that are being studied.bone marrow transplant may be considered for infantile mld.research is studying ways to replace the missing enzyme (arylsulfatase a).  "
+        ],
+        "out_of_vocab": [
+            "studied.bone"
+        ]
+    }
+}

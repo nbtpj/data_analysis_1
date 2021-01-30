@@ -4,6 +4,7 @@ import pandas
 import os
 from collections import Counter
 from ratio import *
+from rouge import Rouge
 
 # import matplotlib.pyplot as plt
 nlp = spacy.load("en_core_web_sm")
